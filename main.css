@@ -1,0 +1,42 @@
+.principal{
+	font-family: 'Inconsolata', monospace;
+	position: relative;
+}
+hr { 
+   border-top: 2px solid black; 
+   border-bottom: 2px solid black; 
+   border-left:none; 
+   border-right:none; 
+   height: 1px; 
+   width: 5em;
+   position: absolute;
+   left: 2em;
+  
+ } 
+.foto{
+	background-image:url(download.jpg);
+	height:10em;
+	width:10em;
+	overflow: hidden ;
+	float: left;
+	margin:2em;
+}
+.foto:hover{
+	background-image:url(visa.jpg);
+	height:10em;
+	width:10em;
+	overflow: hidden ;
+	float: left;
+	margin:2em;
+}
+h5{
+	color:white;
+	position: relative;
+	top:115px;
+	right: 10px;
+	text-align:right;
+}
+h4{
+	font-size: 1.5em;
+	margin:2em;
+}
